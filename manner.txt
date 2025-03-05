@@ -1,0 +1,23 @@
+初めの設定のやつ
+echo "# GitCheck" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:mepi02/GitCheck.git
+git push -u origin main
+
+ファイル上げるやつ
+git add -A //全体を上げる
+git add <ファイル名> //一部だけ上げる
+
+git commit -m 'メッセージ'  //送ることができる状態にする
+
+git remote add origin リモートリポジトリのアドレス //している場合はいい
+
+git push origin <ブランチ名>　/*GいｔHub上の上げる
+                                 今使っているブランチわからないときは、git branch で見る*/
+
+git log //コミットの履歴見る
+
+//Githubの履歴見る　　https://phoeducation.work/entry/20210811/1628636280
